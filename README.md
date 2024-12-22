@@ -1,3 +1,17 @@
+Clone repo
+
+https://github.com/Noroff-FEU-Assignments/project-exam-2-linngaarder.git
+
+Install the dependencies:
+npm install
+npm install sass
+npm install axios
+npm install react-router-dom
+npm install react-hook-form
+npm install yup
+
+
+
 # Project Exam 2
 ## Goal
 To take the skills learned over the last two years and take on an extensive project where the finished product should reflect the candidate's general development capabilities, in addition to visual and technical skills.
