@@ -4,10 +4,15 @@ https://github.com/Noroff-FEU-Assignments/project-exam-2-linngaarder.git
 
 Install the dependencies:
 npm install
+
 npm install sass
+
 npm install axios
+
 npm install react-router-dom
+
 npm install react-hook-form
+
 npm install yup
 
 
