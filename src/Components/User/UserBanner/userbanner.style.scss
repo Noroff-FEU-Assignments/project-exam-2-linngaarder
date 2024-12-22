@@ -1,0 +1,25 @@
+@import "/src/style/partials/base/base";
+
+.user-banner {
+  margin-top: 1em;
+  min-height: 350px;
+  background: $colour-primary;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: $primary-shadow;
+  max-width: 1200px;
+
+  .user-info {
+    background: $colour-secondary-background-transparent;
+    .profile-image {
+      width: 75px;
+      height: 75px;
+      margin: 0.75em;
+    }
+  }
+}
+
+.edit-icon {
+  width: 30px;
+}

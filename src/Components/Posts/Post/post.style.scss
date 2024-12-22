@@ -1,0 +1,53 @@
+@import "/src/style/partials/base/base";
+
+.post {
+  * {
+    overflow-wrap: anywhere;
+    border-radius: 10px;
+  }
+
+  background: $colour-medium-blue;
+  color: $colour-light;
+
+  .close-button {
+    color: $colour-medium-blue;
+  }
+
+  .post-author-name {
+    text-decoration: none;
+    font-family: $font-header;
+    font-size: 18px;
+    font-weight: 500;
+    color: $colour-light;
+  }
+
+  .post-title {
+    font-family: $font-header !important;
+    font-size: 30px !important;
+    font-weight: 600 !important;
+  }
+
+  .distinct {
+    color: $colour-medium-blue;
+  }
+}
+
+.post.owner {
+  background: $colour-medium-blue;
+  color: $colour-light;
+
+  .post-author-name {
+    color: $colour-light;
+  }
+
+  .close-button {
+    background-color: $colour-dark-blue;
+    color: $colour-light;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+  }
+
+  .discrete {
+    color: $colour-light;
+  }
+}

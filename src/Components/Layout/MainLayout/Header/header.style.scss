@@ -1,0 +1,11 @@
+@import "/src/style/partials/base/base";
+
+.nav-styling {
+  background-color: $colour-dark-blue;
+}
+
+.nav-link {
+  font-family: $font-header;
+  font-size: 1.5rem !important;
+  color: $colour-light !important;
+}

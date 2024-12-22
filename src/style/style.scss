@@ -1,0 +1,20 @@
+@import "./partials/base/base";
+@import "./partials/utility/utility-classes";
+@import "./partials/style-components/style-components";
+
+* {
+    box-sizing: border-box;
+    position: relative;
+    z-index: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none !important;
+    padding: 0 !important;
+}
+
+@import "./custom-bootstrap/custom-bootstrap";

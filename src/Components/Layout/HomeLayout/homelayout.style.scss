@@ -1,0 +1,12 @@
+@import "/src/style/partials/base/base";
+
+.background {
+  background-color: $colour-primary-gradient;
+}
+
+.layout-content {
+  @media (max-width: 991px) {
+    flex-direction: column-reverse !important;
+    align-items: flex-start;
+  }
+}

@@ -1,0 +1,9 @@
+@import "/src/style/partials/base/base";
+
+.reaction-form {
+  background: rgb($colour-secondary-background, 0.75) !important;
+
+  button {
+    transition: 0.25s;
+  }
+}

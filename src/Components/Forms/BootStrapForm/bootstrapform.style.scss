@@ -1,0 +1,25 @@
+@import "/src/style/partials/base/base";
+@import "/src/style/partials/utility/utility-classes";
+
+.system-form {
+  input,
+  textarea {
+    background: $colour-medium-grey;
+    border: none;
+    color: $colour-light;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: $colour-dark-black;
+    @extend .small-text;
+  }
+
+  input:disabled,
+  textarea:disabled {
+    background-color: $colour-primary;
+    opacity: 0.5;
+  }
+}

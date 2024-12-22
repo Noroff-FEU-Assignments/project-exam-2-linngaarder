@@ -1,0 +1,17 @@
+@import "/src/style/partials/base/base";
+
+.post-button {
+  height: 85px;
+  padding: 0 35px;
+  background: $colour-primary;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  transition: 0.3s;
+  font-size: 1.25rem;
+}
+
+.post-button:hover {
+  background: $colour-secondary;
+  color: #fff;
+}
