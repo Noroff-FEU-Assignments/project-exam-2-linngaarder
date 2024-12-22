@@ -1,0 +1,10 @@
+@import "/src/style/partials/base/base";
+
+#main-page-layout {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    background: $colour-primary-gradient;
+    color: $colour-light;
+    font-family: $font-primary;
+}

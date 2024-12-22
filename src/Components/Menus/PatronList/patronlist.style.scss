@@ -1,0 +1,12 @@
+@import "/src/style/partials/base/base";
+
+.patron-list {
+  position: absolute;
+  background: $colour-medium-blue;
+  opacity: 90%;
+  top: 160px;
+  max-height: 60vh;
+  overflow: scroll;
+  border-radius: 5px;
+  scrollbar-width: none;
+}

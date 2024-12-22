@@ -1,0 +1,14 @@
+$bs-modal-width: 560px;
+
+.modal-dialog {
+  max-width: 560px !important;
+
+  .modal-content {
+    .container {
+      padding: 0;
+      width: 100%;
+    }
+  }
+}
+
+@import "~bootstrap/scss/bootstrap";

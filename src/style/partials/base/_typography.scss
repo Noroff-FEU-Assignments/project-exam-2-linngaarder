@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Kameron:wght@400..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+$font-btn: "Arsenal", system-ui;
+$font-header: "Kameron", system-ui;
+$font-primary: "Plus Jakarta Sans", system-ui;
+
+a {
+  text-decoration: none !important;
+}
+
+a:hover {
+  text-decoration: underline !important;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: $font-header;
+}
+
+.small-text {
+  font-weight: 200;
+  font-size: 14px;
+  opacity: 0.85;
+  font-family: $font-primary;
+}
+
+button {
+  font-family: $font-btn !important;
+}
+
+.light-text {
+  color: $colour-light;
+}
+
+.light-text:hover {
+  color: $colour-light !important;
+}
+
+.brand-text {
+  font-family: $font-primary;
+}
+
+.primary-text {
+  color: $colour-primary !important;
+}
+
+.primary-text:hover {
+  color: $colour-primary !important;
+}
+
+.dark-text {
+  color: $colour-dark;
+}
+
+.user-name {
+  text-decoration: none;
+  font-family: $font-primary;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+//Font-size
+
+text-md {
+  font-size: 24px;
+}

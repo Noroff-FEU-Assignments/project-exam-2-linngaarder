@@ -59,10 +59,10 @@ The Product Owner has requested links to the following:
 This list covers libraries and services that have been vetted by the company and approved for use.
 
 ### JavaScript Frameworks
-- React (>16)
+### - React (>16)
 
 ### CSS Frameworks
-- Bootstrap (>5)
+### - Bootstrap (>5)
 - Tailwind (>3)
 - MUI (>5)
 - Styled Components
@@ -70,16 +70,12 @@ This list covers libraries and services that have been vetted by the company and
 
 ### Hosting Services
 - GitHub Pages
-- Netlify
+### - Netlify
 
 ### Design Applications
-- Adobe XD
+### - Adobe XD
 - Figma
 - Sketch
-
-### Planning Applications
-- Trello
-- GitHub Projects
 
 ## Delivery
 Include the required links in the Moodle delivery window using [this template format](delivery-template.html).

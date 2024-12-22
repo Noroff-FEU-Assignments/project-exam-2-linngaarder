@@ -1,0 +1,20 @@
+.system-btn {
+  background: $colour-secondary !important;
+  border: none;
+  height: 36px;
+  padding: 0 24px;
+  color: $colour-light;
+  @extend .radius-sm;
+}
+
+.system-btn:hover {
+  background: $colour-primary !important;
+}
+
+.error {
+  padding: 16px;
+  background: rgb(#ff0000, 0.5);
+  color: $colour-light;
+  margin: 10px !important;
+  border-radius: 0.25em;
+}

@@ -1,0 +1,14 @@
+@import "/src/style/partials/base/base";
+
+.comment {
+  .reply-to {
+    background: $colour-secondary-background;
+    color: $colour-light;
+  }
+
+  .bottom-border {
+    width: 80%;
+    height: 1px;
+    background: $colour-primary;
+  }
+}

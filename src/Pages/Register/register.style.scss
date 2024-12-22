@@ -1,0 +1,13 @@
+@import "/src/style/partials/base/base";
+
+.app-frame {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.register-heading {
+  margin-top: 3em;
+  color: $colour-dark-blue;
+}

@@ -1,0 +1,26 @@
+@import "/src/style/partials/base/base";
+
+.user-list {
+  @media (max-width: 770px) {
+    gap: 17px !important;
+  }
+}
+
+.user-list-item {
+  width: 300px;
+  padding: 50px;
+  background: $colour-medium-blue;
+  margin: 0em 1em 1em 2em;
+
+  @media (max-width: 555px) {
+    scale: 0.85;
+    padding: 12px;
+    width: 160px;
+  }
+}
+
+.user-list-item:hover,
+.user-list-item:focus {
+  opacity: 70%;
+  cursor: pointer;
+}

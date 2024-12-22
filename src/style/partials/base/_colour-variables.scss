@@ -1,0 +1,28 @@
+$colour-primary: #4b7b87;
+$colour-secondary: #78a4af;
+$colour-dark-black: #02151b;
+$colour-grey: #262626;
+$colour-dark-blue: #0a2248;
+$colour-medium-blue: #1b4079;
+$colour-pale-plum: #444152;
+$colour-medium-grey: #dce0e8;
+$colour-dark: $colour-medium-blue;
+$colour-light: #fff;
+
+$primary-shadow: 3px 9px 35px $colour-pale-plum;
+$colour-primary-background: $colour-medium-blue;
+$colour-secondary-background: $colour-dark-blue;
+$colour-secondary-background-transparent: rgb(
+  $colour-secondary-background,
+  0.6
+);
+$colour-primary-gradient: linear-gradient(
+  0deg,
+  rgba(47, 76, 120, 1) 0%,
+  rgba(173, 190, 219, 1) 100%
+);
+$colour-dark-gradient: radial-gradient(
+  circle,
+  $colour-primary-background 75%,
+  $colour-secondary-background 150%
+);
