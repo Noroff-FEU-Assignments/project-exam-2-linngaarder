@@ -9,6 +9,8 @@ npm install sass
 
 npm install axios
 
+npm install react-bootstrap bootstrap
+
 npm install react-router-dom
 
 npm install react-hook-form
